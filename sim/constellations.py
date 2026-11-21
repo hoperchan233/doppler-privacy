@@ -66,3 +66,16 @@ def hawkeye_omm(path):
         cl.append(tag[:-1] if len(tag) > 1 else ("1" if nm.startswith("HAWK") else nm))  # HAWK-10A -> "10", HAWK-A -> "1"
     uniq = {c: i for i, c in enumerate(dict.fromkeys(cl))}
     return names, sats, np.array([uniq[c] for c in cl])
+
+
+def legit_omm(path):
+    """Kineis satellites from a CelesTrak OMM JSON file (other objects in the file are ignored)."""
+    import json
+    from sgp4 import omm
+    names, sats = [], []
+    for r in json.load(open(path)):
+        if not r["OBJECT_NAME"].startswith("KINEIS"):
+            continue
+        s = Satrec(); omm.initialize(s, r)
+        names.append(r["OBJECT_NAME"]); sats.append(s)
+    return names, sats

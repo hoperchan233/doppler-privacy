@@ -1,5 +1,7 @@
 {
  "assumptions": {
+  "kineis_source": "../data/kineis/kineis_latest_omm.json",
+  "n_kineis": 25,
   "n_hawkeye": 46,
   "start_jd": 2461366.5,
   "days": 7,
@@ -14,14 +16,14 @@
  },
  "sites": {
   "Kenya": {
-   "legit_min_per_day": 441.85714285714283,
+   "legit_min_per_day": 448.1904761904762,
    "hawkeye_real": {
-    "frac_legit_time_ge1_eav": 0.383230951611165,
-    "frac_legit_time_ge2_eav": 0.30057118223946544,
-    "allowed_min_per_day": 309.0476190476191,
-    "allowed_frac_of_legit": 0.6994288177605346,
-    "max_gap_h": 2.3333333333333335,
-    "p95_gap_h": 0.053333333333330304,
+    "frac_legit_time_ge1_eav": 0.37409689757756054,
+    "frac_legit_time_ge2_eav": 0.2909052273693158,
+    "allowed_min_per_day": 317.8095238095238,
+    "allowed_frac_of_legit": 0.7090947726306842,
+    "max_gap_h": 2.3444444444444446,
+    "p95_gap_h": 0.05555555555555555,
     "l3": {
      "0": {
       "unscheduled": {
@@ -35,8 +37,8 @@
      },
      "5": {
       "unscheduled": {
-       "day_detect": 0.014285714285714285,
-       "day_locate": 0.014285714285714285
+       "day_detect": 0.05714285714285714,
+       "day_locate": 0.07857142857142857
       },
       "scheduled": {
        "day_detect": 0.0,
@@ -45,21 +47,21 @@
      },
      "10": {
       "unscheduled": {
-       "day_detect": 0.32857142857142857,
-       "day_locate": 0.42142857142857143
+       "day_detect": 0.29285714285714287,
+       "day_locate": 0.35714285714285715
       },
       "scheduled": {
-       "day_detect": 0.04285714285714286,
+       "day_detect": 0.014285714285714285,
        "day_locate": 0.0
       }
      },
      "15": {
       "unscheduled": {
-       "day_detect": 0.9857142857142858,
-       "day_locate": 0.9785714285714285
+       "day_detect": 1.0,
+       "day_locate": 1.0
       },
       "scheduled": {
-       "day_detect": 0.35714285714285715,
+       "day_detect": 0.42857142857142855,
        "day_locate": 0.0
       }
      },
@@ -76,12 +78,12 @@
     }
    },
    "hawkeye_real+12indep": {
-    "frac_legit_time_ge1_eav": 0.6021122965836836,
-    "frac_legit_time_ge2_eav": 0.3555340015087833,
-    "allowed_min_per_day": 284.76190476190476,
-    "allowed_frac_of_legit": 0.6444659984912168,
-    "max_gap_h": 2.3333333333333335,
-    "p95_gap_h": 0.10611111111110808,
+    "frac_legit_time_ge1_eav": 0.6055036124096898,
+    "frac_legit_time_ge2_eav": 0.347428814279643,
+    "allowed_min_per_day": 292.4761904761905,
+    "allowed_frac_of_legit": 0.652571185720357,
+    "max_gap_h": 2.3444444444444446,
+    "p95_gap_h": 0.08888888888888889,
     "l3": {
      "0": {
       "unscheduled": {
@@ -95,8 +97,8 @@
      },
      "5": {
       "unscheduled": {
-       "day_detect": 0.03571428571428571,
-       "day_locate": 0.03571428571428571
+       "day_detect": 0.04285714285714286,
+       "day_locate": 0.05
       },
       "scheduled": {
        "day_detect": 0.0,
@@ -105,21 +107,21 @@
      },
      "10": {
       "unscheduled": {
-       "day_detect": 0.44285714285714284,
-       "day_locate": 0.44285714285714284
+       "day_detect": 0.4714285714285714,
+       "day_locate": 0.40714285714285714
       },
       "scheduled": {
-       "day_detect": 0.15,
+       "day_detect": 0.16428571428571428,
        "day_locate": 0.0
       }
      },
      "15": {
       "unscheduled": {
-       "day_detect": 1.0,
+       "day_detect": 0.9785714285714285,
        "day_locate": 1.0
       },
       "scheduled": {
-       "day_detect": 0.8857142857142857,
+       "day_detect": 0.8357142857142857,
        "day_locate": 0.0
       }
      },
@@ -137,14 +139,14 @@
    }
   },
   "Texas coast": {
-   "legit_min_per_day": 492.33333333333337,
+   "legit_min_per_day": 498.4761904761905,
    "hawkeye_real": {
-    "frac_legit_time_ge1_eav": 0.459328755198762,
-    "frac_legit_time_ge2_eav": 0.3754715156204662,
-    "allowed_min_per_day": 307.4761904761905,
-    "allowed_frac_of_legit": 0.6245284843795338,
-    "max_gap_h": 2.011111111111111,
-    "p95_gap_h": 0.12777777777777777,
+    "frac_legit_time_ge1_eav": 0.45873137179977075,
+    "frac_legit_time_ge2_eav": 0.37476117692013755,
+    "allowed_min_per_day": 311.66666666666663,
+    "allowed_frac_of_legit": 0.6252388230798624,
+    "max_gap_h": 2.0444444444444443,
+    "p95_gap_h": 0.08888888888888889,
     "l3": {
      "0": {
       "unscheduled": {
@@ -159,7 +161,7 @@
      "5": {
       "unscheduled": {
        "day_detect": 0.02857142857142857,
-       "day_locate": 0.02142857142857143
+       "day_locate": 0.007142857142857143
       },
       "scheduled": {
        "day_detect": 0.0,
@@ -169,20 +171,20 @@
      "10": {
       "unscheduled": {
        "day_detect": 0.6,
-       "day_locate": 0.6714285714285714
+       "day_locate": 0.6285714285714286
       },
       "scheduled": {
-       "day_detect": 0.0,
+       "day_detect": 0.06428571428571428,
        "day_locate": 0.0
       }
      },
      "15": {
       "unscheduled": {
        "day_detect": 1.0,
-       "day_locate": 1.0
+       "day_locate": 0.9928571428571429
       },
       "scheduled": {
-       "day_detect": 0.4785714285714286,
+       "day_detect": 0.4642857142857143,
        "day_locate": 0.0
       }
      },
@@ -192,19 +194,19 @@
        "day_locate": 1.0
       },
       "scheduled": {
-       "day_detect": 0.9642857142857143,
+       "day_detect": 0.9571428571428572,
        "day_locate": 0.0
       }
      }
     }
    },
    "hawkeye_real+12indep": {
-    "frac_legit_time_ge1_eav": 0.6574136763710223,
-    "frac_legit_time_ge2_eav": 0.42779765934809943,
-    "allowed_min_per_day": 281.7142857142857,
-    "allowed_frac_of_legit": 0.5722023406519006,
-    "max_gap_h": 2.011111111111111,
-    "p95_gap_h": 0.17222222222222222,
+    "frac_legit_time_ge1_eav": 0.6643102789453573,
+    "frac_legit_time_ge2_eav": 0.42711119602598396,
+    "allowed_min_per_day": 285.57142857142856,
+    "allowed_frac_of_legit": 0.5728888039740161,
+    "max_gap_h": 2.0444444444444443,
+    "p95_gap_h": 0.13333333333333333,
     "l3": {
      "0": {
       "unscheduled": {
@@ -218,7 +220,70 @@
      },
      "5": {
       "unscheduled": {
-       "day_detect": 0.007142857142857143,
+       "day_detect": 0.03571428571428571,
+       "day_locate": 0.007142857142857143
+      },
+      "scheduled": {
+       "day_detect": 0.0,
+       "day_locate": 0.0
+      }
+     },
+     "10": {
+      "unscheduled": {
+       "day_detect": 0.6571428571428571,
+       "day_locate": 0.6928571428571428
+      },
+      "scheduled": {
+       "day_detect": 0.2571428571428571,
+       "day_locate": 0.0
+      }
+     },
+     "15": {
+      "unscheduled": {
+       "day_detect": 1.0,
+       "day_locate": 1.0
+      },
+      "scheduled": {
+       "day_detect": 0.9642857142857143,
+       "day_locate": 0.0
+      }
+     },
+     "20": {
+      "unscheduled": {
+       "day_detect": 1.0,
+       "day_locate": 1.0
+      },
+      "scheduled": {
+       "day_detect": 1.0,
+       "day_locate": 0.0
+      }
+     }
+    }
+   }
+  },
+  "Fuji": {
+   "legit_min_per_day": 532.3333333333334,
+   "hawkeye_real": {
+    "frac_legit_time_ge1_eav": 0.49709276321674567,
+    "frac_legit_time_ge2_eav": 0.4026299311208516,
+    "allowed_min_per_day": 318.0,
+    "allowed_frac_of_legit": 0.5973700688791485,
+    "max_gap_h": 1.8055555555555556,
+    "p95_gap_h": 0.09444444444444444,
+    "l3": {
+     "0": {
+      "unscheduled": {
+       "day_detect": 0.0,
+       "day_locate": 0.0
+      },
+      "scheduled": {
+       "day_detect": 0.0,
+       "day_locate": 0.0
+      }
+     },
+     "5": {
+      "unscheduled": {
+       "day_detect": 0.0,
        "day_locate": 0.0
       },
       "scheduled": {
@@ -228,11 +293,194 @@
      },
      "10": {
       "unscheduled": {
-       "day_detect": 0.7142857142857143,
+       "day_detect": 0.6142857142857143,
+       "day_locate": 0.6785714285714286
+      },
+      "scheduled": {
+       "day_detect": 0.12142857142857143,
+       "day_locate": 0.0
+      }
+     },
+     "15": {
+      "unscheduled": {
+       "day_detect": 1.0,
+       "day_locate": 1.0
+      },
+      "scheduled": {
+       "day_detect": 0.6214285714285714,
+       "day_locate": 0.0
+      }
+     },
+     "20": {
+      "unscheduled": {
+       "day_detect": 1.0,
+       "day_locate": 1.0
+      },
+      "scheduled": {
+       "day_detect": 1.0,
+       "day_locate": 0.0
+      }
+     }
+    }
+   },
+   "hawkeye_real+12indep": {
+    "frac_legit_time_ge1_eav": 0.712943912693443,
+    "frac_legit_time_ge2_eav": 0.4956615081849897,
+    "allowed_min_per_day": 268.4761904761905,
+    "allowed_frac_of_legit": 0.5043384918150103,
+    "max_gap_h": 1.8055555555555556,
+    "p95_gap_h": 0.17777777777777778,
+    "l3": {
+     "0": {
+      "unscheduled": {
+       "day_detect": 0.0,
+       "day_locate": 0.0
+      },
+      "scheduled": {
+       "day_detect": 0.0,
+       "day_locate": 0.0
+      }
+     },
+     "5": {
+      "unscheduled": {
+       "day_detect": 0.0,
+       "day_locate": 0.0
+      },
+      "scheduled": {
+       "day_detect": 0.0,
+       "day_locate": 0.0
+      }
+     },
+     "10": {
+      "unscheduled": {
+       "day_detect": 0.7357142857142858,
+       "day_locate": 0.75
+      },
+      "scheduled": {
+       "day_detect": 0.40714285714285714,
+       "day_locate": 0.0
+      }
+     },
+     "15": {
+      "unscheduled": {
+       "day_detect": 1.0,
+       "day_locate": 1.0
+      },
+      "scheduled": {
+       "day_detect": 0.9571428571428572,
+       "day_locate": 0.0
+      }
+     },
+     "20": {
+      "unscheduled": {
+       "day_detect": 1.0,
+       "day_locate": 1.0
+      },
+      "scheduled": {
+       "day_detect": 1.0,
+       "day_locate": 0.0
+      }
+     }
+    }
+   }
+  },
+  "Pampas": {
+   "legit_min_per_day": 537.1428571428571,
+   "hawkeye_real": {
+    "frac_legit_time_ge1_eav": 0.49281914893617024,
+    "frac_legit_time_ge2_eav": 0.4101950354609929,
+    "allowed_min_per_day": 316.8095238095238,
+    "allowed_frac_of_legit": 0.5898049645390071,
+    "max_gap_h": 2.4166666666666665,
+    "p95_gap_h": 0.07222222222222222,
+    "l3": {
+     "0": {
+      "unscheduled": {
+       "day_detect": 0.0,
+       "day_locate": 0.0
+      },
+      "scheduled": {
+       "day_detect": 0.0,
+       "day_locate": 0.0
+      }
+     },
+     "5": {
+      "unscheduled": {
+       "day_detect": 0.02142857142857143,
+       "day_locate": 0.0
+      },
+      "scheduled": {
+       "day_detect": 0.0,
+       "day_locate": 0.0
+      }
+     },
+     "10": {
+      "unscheduled": {
+       "day_detect": 0.6428571428571429,
        "day_locate": 0.7357142857142858
       },
       "scheduled": {
-       "day_detect": 0.25,
+       "day_detect": 0.10714285714285714,
+       "day_locate": 0.0
+      }
+     },
+     "15": {
+      "unscheduled": {
+       "day_detect": 1.0,
+       "day_locate": 1.0
+      },
+      "scheduled": {
+       "day_detect": 0.6,
+       "day_locate": 0.0
+      }
+     },
+     "20": {
+      "unscheduled": {
+       "day_detect": 1.0,
+       "day_locate": 1.0
+      },
+      "scheduled": {
+       "day_detect": 0.9857142857142858,
+       "day_locate": 0.0
+      }
+     }
+    }
+   },
+   "hawkeye_real+12indep": {
+    "frac_legit_time_ge1_eav": 0.7169326241134751,
+    "frac_legit_time_ge2_eav": 0.4997340425531915,
+    "allowed_min_per_day": 268.7142857142857,
+    "allowed_frac_of_legit": 0.5002659574468085,
+    "max_gap_h": 2.4166666666666665,
+    "p95_gap_h": 0.16083333333333233,
+    "l3": {
+     "0": {
+      "unscheduled": {
+       "day_detect": 0.0,
+       "day_locate": 0.0
+      },
+      "scheduled": {
+       "day_detect": 0.0,
+       "day_locate": 0.0
+      }
+     },
+     "5": {
+      "unscheduled": {
+       "day_detect": 0.04285714285714286,
+       "day_locate": 0.0
+      },
+      "scheduled": {
+       "day_detect": 0.0,
+       "day_locate": 0.0
+      }
+     },
+     "10": {
+      "unscheduled": {
+       "day_detect": 0.6714285714285714,
+       "day_locate": 0.8
+      },
+      "scheduled": {
+       "day_detect": 0.37857142857142856,
        "day_locate": 0.0
       }
      },
@@ -259,261 +507,15 @@
     }
    }
   },
-  "Fuji": {
-   "legit_min_per_day": 526.8571428571429,
-   "hawkeye_real": {
-    "frac_legit_time_ge1_eav": 0.4924981923355025,
-    "frac_legit_time_ge2_eav": 0.40708604483007954,
-    "allowed_min_per_day": 312.38095238095235,
-    "allowed_frac_of_legit": 0.5929139551699205,
-    "max_gap_h": 1.8777777777777778,
-    "p95_gap_h": 0.10555555555555556,
-    "l3": {
-     "0": {
-      "unscheduled": {
-       "day_detect": 0.0,
-       "day_locate": 0.0
-      },
-      "scheduled": {
-       "day_detect": 0.0,
-       "day_locate": 0.0
-      }
-     },
-     "5": {
-      "unscheduled": {
-       "day_detect": 0.0,
-       "day_locate": 0.0
-      },
-      "scheduled": {
-       "day_detect": 0.0,
-       "day_locate": 0.0
-      }
-     },
-     "10": {
-      "unscheduled": {
-       "day_detect": 0.5571428571428572,
-       "day_locate": 0.6785714285714286
-      },
-      "scheduled": {
-       "day_detect": 0.14285714285714285,
-       "day_locate": 0.0
-      }
-     },
-     "15": {
-      "unscheduled": {
-       "day_detect": 1.0,
-       "day_locate": 1.0
-      },
-      "scheduled": {
-       "day_detect": 0.5714285714285714,
-       "day_locate": 0.0
-      }
-     },
-     "20": {
-      "unscheduled": {
-       "day_detect": 1.0,
-       "day_locate": 1.0
-      },
-      "scheduled": {
-       "day_detect": 0.9785714285714285,
-       "day_locate": 0.0
-      }
-     }
-    }
-   },
-   "hawkeye_real+12indep": {
-    "frac_legit_time_ge1_eav": 0.7138467100506146,
-    "frac_legit_time_ge2_eav": 0.4950289226319595,
-    "allowed_min_per_day": 266.04761904761904,
-    "allowed_frac_of_legit": 0.5049710773680405,
-    "max_gap_h": 1.8777777777777778,
-    "p95_gap_h": 0.19444444444444445,
-    "l3": {
-     "0": {
-      "unscheduled": {
-       "day_detect": 0.0,
-       "day_locate": 0.0
-      },
-      "scheduled": {
-       "day_detect": 0.0,
-       "day_locate": 0.0
-      }
-     },
-     "5": {
-      "unscheduled": {
-       "day_detect": 0.007142857142857143,
-       "day_locate": 0.007142857142857143
-      },
-      "scheduled": {
-       "day_detect": 0.0,
-       "day_locate": 0.0
-      }
-     },
-     "10": {
-      "unscheduled": {
-       "day_detect": 0.6928571428571428,
-       "day_locate": 0.75
-      },
-      "scheduled": {
-       "day_detect": 0.42857142857142855,
-       "day_locate": 0.0
-      }
-     },
-     "15": {
-      "unscheduled": {
-       "day_detect": 1.0,
-       "day_locate": 1.0
-      },
-      "scheduled": {
-       "day_detect": 0.9928571428571429,
-       "day_locate": 0.0
-      }
-     },
-     "20": {
-      "unscheduled": {
-       "day_detect": 1.0,
-       "day_locate": 1.0
-      },
-      "scheduled": {
-       "day_detect": 1.0,
-       "day_locate": 0.0
-      }
-     }
-    }
-   }
-  },
-  "Pampas": {
-   "legit_min_per_day": 530.8095238095237,
-   "hawkeye_real": {
-    "frac_legit_time_ge1_eav": 0.4989683322867139,
-    "frac_legit_time_ge2_eav": 0.41446129003319276,
-    "allowed_min_per_day": 310.8095238095238,
-    "allowed_frac_of_legit": 0.5855387099668072,
-    "max_gap_h": 3.188888888888889,
-    "p95_gap_h": 0.09444444444444444,
-    "l3": {
-     "0": {
-      "unscheduled": {
-       "day_detect": 0.0,
-       "day_locate": 0.0
-      },
-      "scheduled": {
-       "day_detect": 0.0,
-       "day_locate": 0.0
-      }
-     },
-     "5": {
-      "unscheduled": {
-       "day_detect": 0.04285714285714286,
-       "day_locate": 0.03571428571428571
-      },
-      "scheduled": {
-       "day_detect": 0.0,
-       "day_locate": 0.0
-      }
-     },
-     "10": {
-      "unscheduled": {
-       "day_detect": 0.6785714285714286,
-       "day_locate": 0.7714285714285715
-      },
-      "scheduled": {
-       "day_detect": 0.24285714285714285,
-       "day_locate": 0.0
-      }
-     },
-     "15": {
-      "unscheduled": {
-       "day_detect": 1.0,
-       "day_locate": 1.0
-      },
-      "scheduled": {
-       "day_detect": 0.6071428571428571,
-       "day_locate": 0.0
-      }
-     },
-     "20": {
-      "unscheduled": {
-       "day_detect": 1.0,
-       "day_locate": 1.0
-      },
-      "scheduled": {
-       "day_detect": 0.9571428571428572,
-       "day_locate": 0.0
-      }
-     }
-    }
-   },
-   "hawkeye_real+12indep": {
-    "frac_legit_time_ge1_eav": 0.7175921772674262,
-    "frac_legit_time_ge2_eav": 0.50560688974612,
-    "allowed_min_per_day": 262.42857142857144,
-    "allowed_frac_of_legit": 0.49439311025387994,
-    "max_gap_h": 3.188888888888889,
-    "p95_gap_h": 0.17777777777777778,
-    "l3": {
-     "0": {
-      "unscheduled": {
-       "day_detect": 0.0,
-       "day_locate": 0.0
-      },
-      "scheduled": {
-       "day_detect": 0.0,
-       "day_locate": 0.0
-      }
-     },
-     "5": {
-      "unscheduled": {
-       "day_detect": 0.05714285714285714,
-       "day_locate": 0.06428571428571428
-      },
-      "scheduled": {
-       "day_detect": 0.0,
-       "day_locate": 0.0
-      }
-     },
-     "10": {
-      "unscheduled": {
-       "day_detect": 0.7714285714285715,
-       "day_locate": 0.8071428571428572
-      },
-      "scheduled": {
-       "day_detect": 0.2642857142857143,
-       "day_locate": 0.0
-      }
-     },
-     "15": {
-      "unscheduled": {
-       "day_detect": 1.0,
-       "day_locate": 1.0
-      },
-      "scheduled": {
-       "day_detect": 0.95,
-       "day_locate": 0.0
-      }
-     },
-     "20": {
-      "unscheduled": {
-       "day_detect": 1.0,
-       "day_locate": 1.0
-      },
-      "scheduled": {
-       "day_detect": 1.0,
-       "day_locate": 0.0
-      }
-     }
-    }
-   }
-  },
   "North Slope": {
-   "legit_min_per_day": 960.7142857142857,
+   "legit_min_per_day": 978.047619047619,
    "hawkeye_real": {
-    "frac_legit_time_ge1_eav": 0.7345724907063197,
-    "frac_legit_time_ge2_eav": 0.5763073110285006,
-    "allowed_min_per_day": 407.0476190476191,
-    "allowed_frac_of_legit": 0.42369268897149936,
-    "max_gap_h": 1.2777777777777777,
-    "p95_gap_h": 0.07055555555555454,
+    "frac_legit_time_ge1_eav": 0.7291007351867179,
+    "frac_legit_time_ge2_eav": 0.5729587613807877,
+    "allowed_min_per_day": 417.66666666666663,
+    "allowed_frac_of_legit": 0.4270412386192122,
+    "max_gap_h": 1.1,
+    "p95_gap_h": 0.03888888888888889,
     "l3": {
      "0": {
       "unscheduled": {
@@ -537,8 +539,8 @@
      },
      "10": {
       "unscheduled": {
-       "day_detect": 0.6857142857142857,
-       "day_locate": 0.7285714285714285
+       "day_detect": 0.7571428571428571,
+       "day_locate": 0.7642857142857142
       },
       "scheduled": {
        "day_detect": 0.35714285714285715,
@@ -551,7 +553,7 @@
        "day_locate": 1.0
       },
       "scheduled": {
-       "day_detect": 0.9571428571428572,
+       "day_detect": 0.9714285714285714,
        "day_locate": 0.0
       }
      },
@@ -568,12 +570,12 @@
     }
    },
    "hawkeye_real+12indep": {
-    "frac_legit_time_ge1_eav": 0.8498141263940521,
-    "frac_legit_time_ge2_eav": 0.683816604708798,
-    "allowed_min_per_day": 303.76190476190476,
-    "allowed_frac_of_legit": 0.316183395291202,
-    "max_gap_h": 1.5666666666666667,
-    "p95_gap_h": 0.14444444444444443,
+    "frac_legit_time_ge1_eav": 0.8470714250937241,
+    "frac_legit_time_ge2_eav": 0.679439115828424,
+    "allowed_min_per_day": 313.5238095238095,
+    "allowed_frac_of_legit": 0.320560884171576,
+    "max_gap_h": 1.5944444444444446,
+    "p95_gap_h": 0.1111111111111111,
     "l3": {
      "0": {
       "unscheduled": {
@@ -587,8 +589,8 @@
      },
      "5": {
       "unscheduled": {
-       "day_detect": 0.03571428571428571,
-       "day_locate": 0.014285714285714285
+       "day_detect": 0.0,
+       "day_locate": 0.0
       },
       "scheduled": {
        "day_detect": 0.0,
@@ -597,11 +599,11 @@
      },
      "10": {
       "unscheduled": {
-       "day_detect": 0.7857142857142857,
-       "day_locate": 0.8571428571428571
+       "day_detect": 0.7428571428571429,
+       "day_locate": 0.7857142857142857
       },
       "scheduled": {
-       "day_detect": 0.36428571428571427,
+       "day_detect": 0.29285714285714287,
        "day_locate": 0.0
       }
      },
@@ -611,7 +613,7 @@
        "day_locate": 1.0
       },
       "scheduled": {
-       "day_detect": 0.9428571428571428,
+       "day_detect": 0.9285714285714286,
        "day_locate": 0.0
       }
      },

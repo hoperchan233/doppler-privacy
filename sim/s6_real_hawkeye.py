@@ -1,11 +1,13 @@
 """Scenario 6: layers 2 and 3 against the REAL HawkEye 360 constellation (46 satellites incl. KESTREL-0A,
 CelesTrak OMM, epoch 2026-11-21), alone and together with 12 synthetic independent eavesdroppers.
 Simulation starts at the first UTC midnight after the newest HawkEye epoch; Kineis TLEs (epoch ~2026-10-01)
-are propagated ~50 days forward, so Kineis phasing is statistically, not exactly, representative."""
+are propagated ~50 days forward, so Kineis phasing is statistically, not exactly, representative.
+Update 2026-11-21: uses fresh Kineis OMM (data/kineis, same-day epoch) when present."""
 import json
 import numpy as np
 from orbit import site_ecef, ecef_states, elevation_deg, start_jd
-from constellations import legit, independent, hawkeye_omm
+import os
+from constellations import legit, legit_omm, independent, hawkeye_omm
 
 STEP, DAYS, LEG_EL = 20.0, 7, 10.0
 BUDGET, DRAWS = 96, 20
@@ -13,7 +15,9 @@ GAMMA_L, D_TH, CAF_TH, BT = 10 ** 1.2, 6.0, 10 ** 1.3, 6e4
 DGS = (0, 5, 10, 15, 20)
 SITES = [("Kenya", 0.0, 37.0), ("Texas coast", 28.0, -97.0), ("Fuji", 35.2, 138.8), ("Pampas", -35.0, -59.0), ("North Slope", 70.2, -148.3)]
 rng = np.random.default_rng(9)
-_, kin = legit("argos.tle")
+KIN_OMM = "../data/kineis/kineis_latest_omm.json"
+kin_src = KIN_OMM if os.path.exists(KIN_OMM) else "argos.tle"
+_, kin = legit_omm(KIN_OMM) if os.path.exists(KIN_OMM) else legit("argos.tle")
 hn, hs, hc = hawkeye_omm("../data/hawkeye/hawkeye360_latest_omm.json")
 jd0 = start_jd(hs)
 t = np.arange(0, DAYS * 86400, STEP); day = (t // 86400).astype(int)
@@ -22,7 +26,7 @@ reh, _ = ecef_states(hs, jd0, t)
 rei, _ = ecef_states(independent(12, jd0, np.random.default_rng(100)), jd0, t)
 CONFIGS = {"hawkeye_real": reh, "hawkeye_real+12indep": np.concatenate([reh, rei])}
 
-out = {"assumptions": dict(n_hawkeye=len(hs), start_jd=jd0, days=DAYS, step_s=STEP, legit_min_el=LEG_EL,
+out = {"assumptions": dict(kineis_source=kin_src, n_kineis=len(kin), n_hawkeye=len(hs), start_jd=jd0, days=DAYS, step_s=STEP, legit_min_el=LEG_EL,
                            eav_min_el=0.0, danger="any two eavesdropper satellites in view", budget=BUDGET,
                            bt=BT, gamma_l_db=12, power="adaptive"), "sites": {}}
 for name, la, lo in SITES:
