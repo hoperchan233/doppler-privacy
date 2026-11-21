@@ -1,0 +1,236 @@
+{
+ "assumptions": {
+  "step_s": 10.0,
+  "days": 7,
+  "legit_min_el": 10.0,
+  "eav_min_el": 0.0,
+  "seeds": 5
+ },
+ "sites": {
+  "Kenya": {
+   "legit_vis_min_per_day": 463.42857142857144,
+   "cluster:1": {
+    "allowed_frac_of_legit": 0.969944512946979,
+    "allowed_min_per_day": 449.5,
+    "max_gap_h": 1.4305555555555556,
+    "p95_gap_h": 0.002777777777777778
+   },
+   "cluster:4": {
+    "allowed_frac_of_legit": 0.9034628031237156,
+    "allowed_min_per_day": 418.6904761904762,
+    "max_gap_h": 1.4305555555555556,
+    "p95_gap_h": 0.002777777777777778
+   },
+   "cluster:10": {
+    "allowed_frac_of_legit": 0.759658857377723,
+    "allowed_min_per_day": 352.0476190476191,
+    "max_gap_h": 1.5527777777777778,
+    "p95_gap_h": 0.002777777777777778
+   },
+   "indep:2": {
+    "allowed_frac_of_legit": 1.0,
+    "allowed_min_per_day": 463.42857142857144,
+    "max_gap_h": 1.4305555555555556,
+    "p95_gap_h": 0.002777777777777778
+   },
+   "indep:6": {
+    "allowed_frac_of_legit": 0.9984073160706947,
+    "allowed_min_per_day": 462.6904761904762,
+    "max_gap_h": 1.4305555555555556,
+    "p95_gap_h": 0.002777777777777778
+   },
+   "indep:12": {
+    "allowed_frac_of_legit": 0.9571002877106453,
+    "allowed_min_per_day": 443.5476190476191,
+    "max_gap_h": 1.4305555555555556,
+    "p95_gap_h": 0.002777777777777778
+   },
+   "both:(10, 12)": {
+    "allowed_frac_of_legit": 0.7128031237155775,
+    "allowed_min_per_day": 330.33333333333337,
+    "max_gap_h": 1.663888888888889,
+    "p95_gap_h": 0.002777777777777778
+   }
+  },
+  "Texas coast": {
+   "legit_vis_min_per_day": 521.6190476190476,
+   "cluster:1": {
+    "allowed_frac_of_legit": 0.9679112652912178,
+    "allowed_min_per_day": 504.88095238095235,
+    "max_gap_h": 1.7916666666666667,
+    "p95_gap_h": 0.002777777777777778
+   },
+   "cluster:4": {
+    "allowed_frac_of_legit": 0.8851561073580427,
+    "allowed_min_per_day": 461.7142857142857,
+    "max_gap_h": 1.836111111111111,
+    "p95_gap_h": 0.002777777777777778
+   },
+   "cluster:10": {
+    "allowed_frac_of_legit": 0.7469874018623334,
+    "allowed_min_per_day": 389.64285714285717,
+    "max_gap_h": 1.8527777777777779,
+    "p95_gap_h": 0.002777777777777778
+   },
+   "indep:2": {
+    "allowed_frac_of_legit": 1.0,
+    "allowed_min_per_day": 521.6190476190476,
+    "max_gap_h": 1.7916666666666667,
+    "p95_gap_h": 0.002777777777777778
+   },
+   "indep:6": {
+    "allowed_frac_of_legit": 0.9911904327186416,
+    "allowed_min_per_day": 517.0238095238095,
+    "max_gap_h": 1.7916666666666667,
+    "p95_gap_h": 0.002777777777777778
+   },
+   "indep:12": {
+    "allowed_frac_of_legit": 0.9149169253240825,
+    "allowed_min_per_day": 477.23809523809524,
+    "max_gap_h": 1.7916666666666667,
+    "p95_gap_h": 0.002777777777777778
+   },
+   "both:(10, 12)": {
+    "allowed_frac_of_legit": 0.6817600876392186,
+    "allowed_min_per_day": 355.61904761904765,
+    "max_gap_h": 1.9083333333333334,
+    "p95_gap_h": 0.002777777777777778
+   }
+  },
+  "Fuji": {
+   "legit_vis_min_per_day": 558.0714285714286,
+   "cluster:1": {
+    "allowed_frac_of_legit": 0.9655275395708008,
+    "allowed_min_per_day": 538.8333333333334,
+    "max_gap_h": 1.5527777777777778,
+    "p95_gap_h": 0.002777777777777778
+   },
+   "cluster:4": {
+    "allowed_frac_of_legit": 0.8752933145612014,
+    "allowed_min_per_day": 488.4761904761905,
+    "max_gap_h": 1.9027777777777777,
+    "p95_gap_h": 0.002777777777777778
+   },
+   "cluster:10": {
+    "allowed_frac_of_legit": 0.7425658091215496,
+    "allowed_min_per_day": 414.4047619047619,
+    "max_gap_h": 1.6416666666666666,
+    "p95_gap_h": 0.002777777777777778
+   },
+   "indep:2": {
+    "allowed_frac_of_legit": 1.0,
+    "allowed_min_per_day": 558.0714285714286,
+    "max_gap_h": 1.5527777777777778,
+    "p95_gap_h": 0.002777777777777778
+   },
+   "indep:6": {
+    "allowed_frac_of_legit": 0.9888647126583898,
+    "allowed_min_per_day": 551.8571428571429,
+    "max_gap_h": 1.5527777777777778,
+    "p95_gap_h": 0.002777777777777778
+   },
+   "indep:12": {
+    "allowed_frac_of_legit": 0.9100217586074492,
+    "allowed_min_per_day": 507.85714285714283,
+    "max_gap_h": 1.5527777777777778,
+    "p95_gap_h": 0.002777777777777778
+   },
+   "both:(10, 12)": {
+    "allowed_frac_of_legit": 0.6266905584709245,
+    "allowed_min_per_day": 349.73809523809524,
+    "max_gap_h": 1.9027777777777777,
+    "p95_gap_h": 0.002777777777777778
+   }
+  },
+  "Pampas": {
+   "legit_vis_min_per_day": 565.5952380952381,
+   "cluster:1": {
+    "allowed_frac_of_legit": 0.9634603241422859,
+    "allowed_min_per_day": 544.9285714285714,
+    "max_gap_h": 1.8305555555555555,
+    "p95_gap_h": 0.002777777777777778
+   },
+   "cluster:4": {
+    "allowed_frac_of_legit": 0.8730372553146706,
+    "allowed_min_per_day": 493.7857142857143,
+    "max_gap_h": 1.8722222222222222,
+    "p95_gap_h": 0.002777777777777778
+   },
+   "cluster:10": {
+    "allowed_frac_of_legit": 0.7403073037255314,
+    "allowed_min_per_day": 418.7142857142857,
+    "max_gap_h": 1.8305555555555555,
+    "p95_gap_h": 0.002777777777777778
+   },
+   "indep:2": {
+    "allowed_frac_of_legit": 1.0,
+    "allowed_min_per_day": 565.5952380952381,
+    "max_gap_h": 1.8305555555555555,
+    "p95_gap_h": 0.002777777777777778
+   },
+   "indep:6": {
+    "allowed_frac_of_legit": 0.986950115765102,
+    "allowed_min_per_day": 558.2142857142857,
+    "max_gap_h": 1.8305555555555555,
+    "p95_gap_h": 0.002777777777777778
+   },
+   "indep:12": {
+    "allowed_frac_of_legit": 0.8943380340980847,
+    "allowed_min_per_day": 505.83333333333337,
+    "max_gap_h": 1.8305555555555555,
+    "p95_gap_h": 0.002777777777777778
+   },
+   "both:(10, 12)": {
+    "allowed_frac_of_legit": 0.6050515680909282,
+    "allowed_min_per_day": 342.2142857142857,
+    "max_gap_h": 2.1972222222222224,
+    "p95_gap_h": 0.002777777777777778
+   }
+  },
+  "North Slope": {
+   "legit_vis_min_per_day": 1033.5,
+   "cluster:1": {
+    "allowed_frac_of_legit": 0.9055912640818301,
+    "allowed_min_per_day": 935.9285714285714,
+    "max_gap_h": 0.5027777777777778,
+    "p95_gap_h": 0.002777777777777778
+   },
+   "cluster:4": {
+    "allowed_frac_of_legit": 0.6843366277328542,
+    "allowed_min_per_day": 707.2619047619047,
+    "max_gap_h": 0.9777777777777777,
+    "p95_gap_h": 0.002777777777777778
+   },
+   "cluster:10": {
+    "allowed_frac_of_legit": 0.41184601561960055,
+    "allowed_min_per_day": 425.64285714285717,
+    "max_gap_h": 1.2694444444444444,
+    "p95_gap_h": 0.002777777777777778
+   },
+   "indep:2": {
+    "allowed_frac_of_legit": 1.0,
+    "allowed_min_per_day": 1033.5,
+    "max_gap_h": 0.45555555555555555,
+    "p95_gap_h": 0.002777777777777778
+   },
+   "indep:6": {
+    "allowed_frac_of_legit": 0.9712488769092543,
+    "allowed_min_per_day": 1003.7857142857143,
+    "max_gap_h": 0.45555555555555555,
+    "p95_gap_h": 0.002777777777777778
+   },
+   "indep:12": {
+    "allowed_frac_of_legit": 0.8440574100951459,
+    "allowed_min_per_day": 872.3333333333333,
+    "max_gap_h": 0.5222222222222223,
+    "p95_gap_h": 0.002777777777777778
+   },
+   "both:(10, 12)": {
+    "allowed_frac_of_legit": 0.2908977814638192,
+    "allowed_min_per_day": 300.64285714285717,
+    "max_gap_h": 1.4527777777777777,
+    "p95_gap_h": 0.002777777777777778
+   }
+  }
+ }
+}

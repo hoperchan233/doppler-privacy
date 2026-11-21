@@ -1,0 +1,109 @@
+{
+ "assumptions": {
+  "site": "Fuji",
+  "sig_f": 2.2,
+  "rep_s": 60.0,
+  "trials": 20
+ },
+ "rows": [
+  {
+   "days": 1,
+   "n_msgs": 29,
+   "delta_km": 10,
+   "rms_dev_hz": 36.83147438801803,
+   "decoy_err_km": 9.923433148457164,
+   "iid_err_km": 2.806990884803958,
+   "keyholder_err_km": 0.13093922459576884,
+   "n_untargeted": 0,
+   "untargeted_err_km": null
+  },
+  {
+   "days": 1,
+   "n_msgs": 29,
+   "delta_km": 50,
+   "rms_dev_hz": 107.624397066163,
+   "decoy_err_km": 49.945390456617126,
+   "iid_err_km": 11.089808550907591,
+   "keyholder_err_km": 0.18047921262837863,
+   "n_untargeted": 0,
+   "untargeted_err_km": null
+  },
+  {
+   "days": 1,
+   "n_msgs": 29,
+   "delta_km": 200,
+   "rms_dev_hz": 433.04251356673785,
+   "decoy_err_km": 199.98531956896807,
+   "iid_err_km": 61.11170426668415,
+   "keyholder_err_km": 0.1513253452955044,
+   "n_untargeted": 0,
+   "untargeted_err_km": null
+  },
+  {
+   "days": 7,
+   "n_msgs": 209,
+   "delta_km": 10,
+   "rms_dev_hz": 28.351893891649503,
+   "decoy_err_km": 9.988745420072455,
+   "iid_err_km": 0.8868425757116173,
+   "keyholder_err_km": 0.05752579076642608,
+   "n_untargeted": 0,
+   "untargeted_err_km": null
+  },
+  {
+   "days": 7,
+   "n_msgs": 209,
+   "delta_km": 50,
+   "rms_dev_hz": 192.35162943448788,
+   "decoy_err_km": 50.00219216852516,
+   "iid_err_km": 4.53688452494676,
+   "keyholder_err_km": 0.05076196555583476,
+   "n_untargeted": 0,
+   "untargeted_err_km": null
+  },
+  {
+   "days": 7,
+   "n_msgs": 209,
+   "delta_km": 200,
+   "rms_dev_hz": 858.9081475260931,
+   "decoy_err_km": 199.9991799124423,
+   "iid_err_km": 10.80278690509698,
+   "keyholder_err_km": 0.07113712433617381,
+   "n_untargeted": 0,
+   "untargeted_err_km": null
+  },
+  {
+   "days": 30,
+   "n_msgs": 907,
+   "delta_km": 10,
+   "rms_dev_hz": 53.585855722749734,
+   "decoy_err_km": 10.00090074227312,
+   "iid_err_km": 0.39221808200343167,
+   "keyholder_err_km": 0.02286180151431539,
+   "n_untargeted": 149,
+   "untargeted_err_km": 6.122129653310822
+  },
+  {
+   "days": 30,
+   "n_msgs": 907,
+   "delta_km": 50,
+   "rms_dev_hz": 236.90333120697392,
+   "decoy_err_km": 49.99775718785451,
+   "iid_err_km": 2.794364921981829,
+   "keyholder_err_km": 0.029372400705506545,
+   "n_untargeted": 149,
+   "untargeted_err_km": 32.3627549963685
+  },
+  {
+   "days": 30,
+   "n_msgs": 907,
+   "delta_km": 200,
+   "rms_dev_hz": 837.1740077618491,
+   "decoy_err_km": 200.0045869062231,
+   "iid_err_km": 8.264029349199305,
+   "keyholder_err_km": 0.025760623863119884,
+   "n_untargeted": 149,
+   "untargeted_err_km": 123.58780763369217
+  }
+ ]
+}

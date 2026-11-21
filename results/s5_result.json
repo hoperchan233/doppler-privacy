@@ -1,0 +1,283 @@
+{
+ "assumptions": {
+  "budget": 96,
+  "bt": 60000.0,
+  "gamma_l_db": 12,
+  "d_th": 6.0,
+  "caf_th_db": 13,
+  "power": "adaptive",
+  "note": "attacker-optimistic ideal non-coherent accumulation over one day"
+ },
+ "sites": {
+  "Kenya": {
+   "unscheduled": {
+    "0": {
+     "day_detect": 0.0,
+     "day_locate": 0.0,
+     "any_single_msg_detect": 0.0,
+     "any_single_msg_locate": 0.0
+    },
+    "5": {
+     "day_detect": 0.0,
+     "day_locate": 0.0,
+     "any_single_msg_detect": 0.0,
+     "any_single_msg_locate": 0.0
+    },
+    "10": {
+     "day_detect": 0.4,
+     "day_locate": 0.5571428571428572,
+     "any_single_msg_detect": 0.32857142857142857,
+     "any_single_msg_locate": 0.4857142857142857
+    },
+    "15": {
+     "day_detect": 1.0,
+     "day_locate": 0.9857142857142858,
+     "any_single_msg_detect": 0.9785714285714285,
+     "any_single_msg_locate": 0.9714285714285714
+    },
+    "20": {
+     "day_detect": 1.0,
+     "day_locate": 1.0,
+     "any_single_msg_detect": 1.0,
+     "any_single_msg_locate": 1.0
+    },
+    "25": {
+     "day_detect": 1.0,
+     "day_locate": 1.0,
+     "any_single_msg_detect": 1.0,
+     "any_single_msg_locate": 1.0
+    },
+    "30": {
+     "day_detect": 1.0,
+     "day_locate": 1.0,
+     "any_single_msg_detect": 1.0,
+     "any_single_msg_locate": 1.0
+    }
+   },
+   "scheduled": {
+    "0": {
+     "day_detect": 0.0,
+     "day_locate": 0.0,
+     "any_single_msg_detect": 0.0,
+     "any_single_msg_locate": 0.0
+    },
+    "5": {
+     "day_detect": 0.0,
+     "day_locate": 0.0,
+     "any_single_msg_detect": 0.0,
+     "any_single_msg_locate": 0.0
+    },
+    "10": {
+     "day_detect": 0.10714285714285714,
+     "day_locate": 0.0,
+     "any_single_msg_detect": 0.08571428571428572,
+     "any_single_msg_locate": 0.0
+    },
+    "15": {
+     "day_detect": 0.8714285714285714,
+     "day_locate": 0.0,
+     "any_single_msg_detect": 0.7642857142857142,
+     "any_single_msg_locate": 0.0
+    },
+    "20": {
+     "day_detect": 1.0,
+     "day_locate": 0.0,
+     "any_single_msg_detect": 1.0,
+     "any_single_msg_locate": 0.0
+    },
+    "25": {
+     "day_detect": 1.0,
+     "day_locate": 0.0,
+     "any_single_msg_detect": 1.0,
+     "any_single_msg_locate": 0.0
+    },
+    "30": {
+     "day_detect": 1.0,
+     "day_locate": 0.0,
+     "any_single_msg_detect": 1.0,
+     "any_single_msg_locate": 0.0
+    }
+   }
+  },
+  "Fuji": {
+   "unscheduled": {
+    "0": {
+     "day_detect": 0.0,
+     "day_locate": 0.0,
+     "any_single_msg_detect": 0.0,
+     "any_single_msg_locate": 0.0
+    },
+    "5": {
+     "day_detect": 0.0,
+     "day_locate": 0.0,
+     "any_single_msg_detect": 0.0,
+     "any_single_msg_locate": 0.0
+    },
+    "10": {
+     "day_detect": 0.36428571428571427,
+     "day_locate": 0.32142857142857145,
+     "any_single_msg_detect": 0.22142857142857142,
+     "any_single_msg_locate": 0.20714285714285716
+    },
+    "15": {
+     "day_detect": 1.0,
+     "day_locate": 1.0,
+     "any_single_msg_detect": 0.9928571428571429,
+     "any_single_msg_locate": 0.95
+    },
+    "20": {
+     "day_detect": 1.0,
+     "day_locate": 1.0,
+     "any_single_msg_detect": 1.0,
+     "any_single_msg_locate": 1.0
+    },
+    "25": {
+     "day_detect": 1.0,
+     "day_locate": 1.0,
+     "any_single_msg_detect": 1.0,
+     "any_single_msg_locate": 1.0
+    },
+    "30": {
+     "day_detect": 1.0,
+     "day_locate": 1.0,
+     "any_single_msg_detect": 1.0,
+     "any_single_msg_locate": 1.0
+    }
+   },
+   "scheduled": {
+    "0": {
+     "day_detect": 0.0,
+     "day_locate": 0.0,
+     "any_single_msg_detect": 0.0,
+     "any_single_msg_locate": 0.0
+    },
+    "5": {
+     "day_detect": 0.0,
+     "day_locate": 0.0,
+     "any_single_msg_detect": 0.0,
+     "any_single_msg_locate": 0.0
+    },
+    "10": {
+     "day_detect": 0.3357142857142857,
+     "day_locate": 0.0,
+     "any_single_msg_detect": 0.2,
+     "any_single_msg_locate": 0.0
+    },
+    "15": {
+     "day_detect": 0.9357142857142857,
+     "day_locate": 0.0,
+     "any_single_msg_detect": 0.8642857142857143,
+     "any_single_msg_locate": 0.0
+    },
+    "20": {
+     "day_detect": 1.0,
+     "day_locate": 0.0,
+     "any_single_msg_detect": 1.0,
+     "any_single_msg_locate": 0.0
+    },
+    "25": {
+     "day_detect": 1.0,
+     "day_locate": 0.0,
+     "any_single_msg_detect": 1.0,
+     "any_single_msg_locate": 0.0
+    },
+    "30": {
+     "day_detect": 1.0,
+     "day_locate": 0.0,
+     "any_single_msg_detect": 1.0,
+     "any_single_msg_locate": 0.0
+    }
+   }
+  },
+  "North Slope": {
+   "unscheduled": {
+    "0": {
+     "day_detect": 0.0,
+     "day_locate": 0.0,
+     "any_single_msg_detect": 0.0,
+     "any_single_msg_locate": 0.0
+    },
+    "5": {
+     "day_detect": 0.0,
+     "day_locate": 0.0,
+     "any_single_msg_detect": 0.0,
+     "any_single_msg_locate": 0.0
+    },
+    "10": {
+     "day_detect": 0.42142857142857143,
+     "day_locate": 0.5071428571428571,
+     "any_single_msg_detect": 0.25,
+     "any_single_msg_locate": 0.36428571428571427
+    },
+    "15": {
+     "day_detect": 1.0,
+     "day_locate": 1.0,
+     "any_single_msg_detect": 1.0,
+     "any_single_msg_locate": 1.0
+    },
+    "20": {
+     "day_detect": 1.0,
+     "day_locate": 1.0,
+     "any_single_msg_detect": 1.0,
+     "any_single_msg_locate": 1.0
+    },
+    "25": {
+     "day_detect": 1.0,
+     "day_locate": 1.0,
+     "any_single_msg_detect": 1.0,
+     "any_single_msg_locate": 1.0
+    },
+    "30": {
+     "day_detect": 1.0,
+     "day_locate": 1.0,
+     "any_single_msg_detect": 1.0,
+     "any_single_msg_locate": 1.0
+    }
+   },
+   "scheduled": {
+    "0": {
+     "day_detect": 0.0,
+     "day_locate": 0.0,
+     "any_single_msg_detect": 0.0,
+     "any_single_msg_locate": 0.0
+    },
+    "5": {
+     "day_detect": 0.0,
+     "day_locate": 0.0,
+     "any_single_msg_detect": 0.0,
+     "any_single_msg_locate": 0.0
+    },
+    "10": {
+     "day_detect": 0.08571428571428572,
+     "day_locate": 0.0,
+     "any_single_msg_detect": 0.02857142857142857,
+     "any_single_msg_locate": 0.0
+    },
+    "15": {
+     "day_detect": 0.9571428571428572,
+     "day_locate": 0.0,
+     "any_single_msg_detect": 0.7857142857142857,
+     "any_single_msg_locate": 0.0
+    },
+    "20": {
+     "day_detect": 1.0,
+     "day_locate": 0.0,
+     "any_single_msg_detect": 1.0,
+     "any_single_msg_locate": 0.0
+    },
+    "25": {
+     "day_detect": 1.0,
+     "day_locate": 0.0,
+     "any_single_msg_detect": 1.0,
+     "any_single_msg_locate": 0.0
+    },
+    "30": {
+     "day_detect": 1.0,
+     "day_locate": 0.0,
+     "any_single_msg_detect": 1.0,
+     "any_single_msg_locate": 0.0
+    }
+   }
+  }
+ }
+}

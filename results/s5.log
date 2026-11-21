@@ -1,0 +1,16 @@
+/home/user/doppler-privacy/sim/s5_accum.py:41: RuntimeWarning: overflow encountered in multiply
+  d = np.sqrt(BT) * SE                                   # per eavesdropper
+/home/user/doppler-privacy/sim/s5_accum.py:43: RuntimeWarning: overflow encountered in multiply
+  rho = BT * a * b / (1 + a + b)
+/home/user/doppler-privacy/sim/s5_accum.py:43: RuntimeWarning: invalid value encountered in multiply
+  rho = BT * a * b / (1 + a + b)
+/home/user/doppler-privacy/sim/s5_accum.py:43: RuntimeWarning: overflow encountered in add
+  rho = BT * a * b / (1 + a + b)
+/home/user/doppler-privacy/sim/s5_accum.py:43: RuntimeWarning: invalid value encountered in divide
+  rho = BT * a * b / (1 + a + b)
+Kenya unscheduled dG0: det0% loc0% dG5: det0% loc0% dG10: det40% loc56% dG15: det100% loc99% dG20: det100% loc100% dG25: det100% loc100% dG30: det100% loc100%
+Kenya scheduled dG0: det0% loc0% dG5: det0% loc0% dG10: det11% loc0% dG15: det87% loc0% dG20: det100% loc0% dG25: det100% loc0% dG30: det100% loc0%
+Fuji unscheduled dG0: det0% loc0% dG5: det0% loc0% dG10: det36% loc32% dG15: det100% loc100% dG20: det100% loc100% dG25: det100% loc100% dG30: det100% loc100%
+Fuji scheduled dG0: det0% loc0% dG5: det0% loc0% dG10: det34% loc0% dG15: det94% loc0% dG20: det100% loc0% dG25: det100% loc0% dG30: det100% loc0%
+North Slope unscheduled dG0: det0% loc0% dG5: det0% loc0% dG10: det42% loc51% dG15: det100% loc100% dG20: det100% loc100% dG25: det100% loc100% dG30: det100% loc100%
+North Slope scheduled dG0: det0% loc0% dG5: det0% loc0% dG10: det9% loc0% dG15: det96% loc0% dG20: det100% loc0% dG25: det100% loc0% dG30: det100% loc0%

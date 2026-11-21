@@ -1,0 +1,18 @@
+/home/user/doppler-privacy/sim/s3_lpd.py:52: RuntimeWarning: invalid value encountered in multiply
+  caf = BT * a * b / (1 + a + b)
+/home/user/doppler-privacy/sim/s3_lpd.py:52: RuntimeWarning: invalid value encountered in divide
+  caf = BT * a * b / (1 + a + b)
+Kenya BT=6e4 (60 kHz x 1 s) adaptive dG0:det0%/loc0% dG5:det0%/loc0% dG10:det0%/loc1% dG15:det2%/loc4% dG20:det10%/loc12% dG25:det24%/loc21% dG30:det32%/loc25% dG35:det33%/loc25% dG40:det33%/loc25%
+/home/user/doppler-privacy/sim/s3_lpd.py:47: RuntimeWarning: invalid value encountered in multiply
+  SE = np.where(ev, SL[None] * (RL[None] / r_e) ** 2 * g, 0.0)   # (n_eav, n_t)
+Kenya BT=6e4 (60 kHz x 1 s) fixed dG0:det0%/loc0% dG5:det0%/loc0% dG10:det1%/loc1% dG15:det6%/loc6% dG20:det20%/loc21% dG25:det33%/loc25% dG30:det33%/loc25% dG35:det33%/loc25% dG40:det33%/loc25%
+Kenya BT=6e3 (6 kHz x 1 s) adaptive dG0:det0%/loc0% dG5:det0%/loc1% dG10:det2%/loc3% dG15:det10%/loc11% dG20:det24%/loc21% dG25:det32%/loc25% dG30:det33%/loc25% dG35:det33%/loc25% dG40:det33%/loc25%
+Kenya BT=6e3 (6 kHz x 1 s) fixed dG0:det0%/loc0% dG5:det1%/loc1% dG10:det6%/loc5% dG15:det20%/loc20% dG20:det33%/loc25% dG25:det33%/loc25% dG30:det33%/loc25% dG35:det33%/loc25% dG40:det33%/loc25%
+Fuji BT=6e4 (60 kHz x 1 s) adaptive dG0:det0%/loc0% dG5:det0%/loc0% dG10:det0%/loc0% dG15:det3%/loc4% dG20:det12%/loc18% dG25:det30%/loc34% dG30:det36%/loc38% dG35:det37%/loc38% dG40:det37%/loc38%
+Fuji BT=6e4 (60 kHz x 1 s) fixed dG0:det0%/loc0% dG5:det0%/loc0% dG10:det1%/loc1% dG15:det6%/loc10% dG20:det22%/loc34% dG25:det37%/loc38% dG30:det37%/loc38% dG35:det37%/loc38% dG40:det37%/loc38%
+Fuji BT=6e3 (6 kHz x 1 s) adaptive dG0:det0%/loc0% dG5:det0%/loc0% dG10:det3%/loc4% dG15:det12%/loc17% dG20:det30%/loc34% dG25:det36%/loc38% dG30:det37%/loc38% dG35:det37%/loc38% dG40:det37%/loc38%
+Fuji BT=6e3 (6 kHz x 1 s) fixed dG0:det0%/loc0% dG5:det1%/loc1% dG10:det6%/loc9% dG15:det22%/loc33% dG20:det37%/loc38% dG25:det37%/loc38% dG30:det37%/loc38% dG35:det37%/loc38% dG40:det37%/loc38%
+North Slope BT=6e4 (60 kHz x 1 s) adaptive dG0:det0%/loc0% dG5:det0%/loc0% dG10:det0%/loc1% dG15:det1%/loc7% dG20:det11%/loc30% dG25:det31%/loc53% dG30:det41%/loc60% dG35:det42%/loc60% dG40:det42%/loc60%
+North Slope BT=6e4 (60 kHz x 1 s) fixed dG0:det0%/loc0% dG5:det0%/loc0% dG10:det1%/loc4% dG15:det6%/loc23% dG20:det23%/loc55% dG25:det42%/loc60% dG30:det42%/loc60% dG35:det42%/loc60% dG40:det42%/loc60%
+North Slope BT=6e3 (6 kHz x 1 s) adaptive dG0:det0%/loc0% dG5:det0%/loc0% dG10:det1%/loc7% dG15:det11%/loc29% dG20:det31%/loc52% dG25:det41%/loc59% dG30:det42%/loc60% dG35:det42%/loc60% dG40:det42%/loc60%
+North Slope BT=6e3 (6 kHz x 1 s) fixed dG0:det0%/loc0% dG5:det1%/loc3% dG10:det6%/loc22% dG15:det23%/loc55% dG20:det42%/loc60% dG25:det42%/loc60% dG30:det42%/loc60% dG35:det42%/loc60% dG40:det42%/loc60%
