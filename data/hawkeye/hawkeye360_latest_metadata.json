@@ -1,0 +1,7 @@
+{
+  "retrieved_at_utc": "2026-11-21T16:54:25.037442+00:00",
+  "source": "CelesTrak current GP data (CCSDS OMM JSON)",
+  "count": 46,
+  "includes": "HAWK-* and KESTREL-0A, only entries with public GP data",
+  "note": "Current GP may omit decayed or untracked satellites; not historical ephemerides."
+}

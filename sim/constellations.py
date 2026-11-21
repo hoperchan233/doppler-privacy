@@ -48,3 +48,21 @@ def independent(n, epoch_jd, rng, alt_km=550.0):
     incs = [53.0, 70.0, sso_inc(alt_km)]
     return [_sat(95000 + i, epoch_jd, alt_km, incs[i % 3], rng.uniform(0, 360), rng.uniform(0, 360))
             for i in range(n)]
+
+
+def hawkeye_omm(path):
+    """Real HawkEye 360 satellites from CelesTrak OMM JSON (handles 6-digit NORAD ids).
+    Returns (names, satrecs, cluster_ids)."""
+    import json
+    from sgp4 import omm
+    recs = json.load(open(path))
+    names, sats, cl = [], [], []
+    for r in recs:
+        s = Satrec()
+        omm.initialize(s, r)
+        names.append(r["OBJECT_NAME"]); sats.append(s)
+        nm = r["OBJECT_NAME"]
+        tag = nm.rsplit("-", 1)[1]
+        cl.append(tag[:-1] if len(tag) > 1 else ("1" if nm.startswith("HAWK") else nm))  # HAWK-10A -> "10", HAWK-A -> "1"
+    uniq = {c: i for i, c in enumerate(dict.fromkeys(cl))}
+    return names, sats, np.array([uniq[c] for c in cl])

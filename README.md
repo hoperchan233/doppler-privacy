@@ -21,9 +21,12 @@ Needs Python 3, numpy, scipy and sgp4. Run every script from `sim/`; each one wr
 - `s3_lpd.py`: per-message detection and pair localization under L3.
 - `s4_decoy.py`: decoy precompensation compared with i.i.d. offsets, plus the keyholder's result and an untargeted satellite.
 - `s5_accum.py`: L3 against an attacker that accumulates a whole day of messages (96 msg/day budget).
+- `s6_real_hawkeye.py`: L2 and L3 against the real HawkEye 360 constellation (46 satellites, OMM JSON), alone and with 12 extra independent satellites.
 
 Theory notes are in `docs/theory.md`; the paper plan and hardware list are in `docs/plan.md`.
 
 ## Data
 - Legitimate system: 25 real Kineis TLEs in `sim/argos.tle`, epoch 2026-10, copied from doppler-verify.
-- Eavesdroppers are synthetic: HawkEye-360-like 3-satellite clusters (575 km SSO, 125 km along-track spacing, per eoPortal), plus independent satellites at 550 km inclined 53/70/97.6 deg. Celestrak was not reachable from the build environment, so real HawkEye TLEs are still a TODO.
+- Real HawkEye 360: `data/hawkeye/`, CelesTrak OMM JSON downloaded by Chen on 2026-11-21. It covers 46 satellites, including KESTREL-0A and the 6-digit NORAD ids that legacy TLE cannot hold. Refresh it with `refresh_hawkeye360.py`.
+- Synthetic eavesdroppers for s2-s5: HawkEye-like 3-satellite clusters (575 km SSO, 125 km along-track spacing) and independent satellites at 550 km.
+- Caveat for s6: the Kineis TLEs are about 50 days older than the HawkEye epoch, so Kineis phasing is representative only statistically. Refresh the Kineis elements before final numbers.
