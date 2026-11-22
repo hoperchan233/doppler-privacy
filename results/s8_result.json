@@ -1,0 +1,431 @@
+{
+ "assumptions": {
+  "k_s_per_day2": [
+   -0.057,
+   -0.024,
+   -0.043,
+   0.002,
+   -0.083,
+   0.019,
+   0.015,
+   0.016,
+   0.027,
+   0.028,
+   0.015,
+   0.015,
+   -0.006,
+   -0.006,
+   -0.013
+  ],
+  "policies": [
+   [
+    7,
+    60,
+    900
+   ],
+   [
+    7,
+    120,
+    1800
+   ],
+   [
+    14,
+    120,
+    1800
+   ],
+   [
+    30,
+    120,
+    1800
+   ]
+  ],
+  "new_sats": [
+   "HAWK-15A",
+   "HAWK-15B",
+   "HAWK-15C",
+   "HAWK-16A",
+   "HAWK-16B",
+   "HAWK-16C"
+  ]
+ },
+ "sites": {
+  "Kenya": {
+   "R7_M60_Mnew900": {
+    "allowed_min_per_day": 233.06349206349205,
+    "leak_frac_of_allowed": 0.0,
+    "max_gap_h": 3.6166666666666667,
+    "acc": {
+     "dG10_W1d": {
+      "pair_locate": 0.0,
+      "single_detect": 0.06190476190476191
+     },
+     "dG10_W7d": {
+      "pair_locate": 0.0,
+      "single_detect": 0.4
+     },
+     "dG10_W21d": {
+      "pair_locate": 0.0,
+      "single_detect": 0.9
+     },
+     "dG15_W1d": {
+      "pair_locate": 0.0,
+      "single_detect": 0.4095238095238095
+     },
+     "dG15_W7d": {
+      "pair_locate": 0.0,
+      "single_detect": 1.0
+     },
+     "dG15_W21d": {
+      "pair_locate": 0.0,
+      "single_detect": 1.0
+     }
+    }
+   },
+   "R7_M120_Mnew1800": {
+    "allowed_min_per_day": 177.6825396825397,
+    "leak_frac_of_allowed": 0.0,
+    "max_gap_h": 5.855555555555555,
+    "acc": {
+     "dG10_W1d": {
+      "pair_locate": 0.0,
+      "single_detect": 0.004761904761904762
+     },
+     "dG10_W7d": {
+      "pair_locate": 0.0,
+      "single_detect": 0.03333333333333333
+     },
+     "dG10_W21d": {
+      "pair_locate": 0.0,
+      "single_detect": 0.5
+     },
+     "dG15_W1d": {
+      "pair_locate": 0.0,
+      "single_detect": 0.36666666666666664
+     },
+     "dG15_W7d": {
+      "pair_locate": 0.0,
+      "single_detect": 0.9666666666666667
+     },
+     "dG15_W21d": {
+      "pair_locate": 0.0,
+      "single_detect": 1.0
+     }
+    }
+   },
+   "R14_M120_Mnew1800": {
+    "allowed_min_per_day": 177.63492063492063,
+    "leak_frac_of_allowed": 0.0,
+    "max_gap_h": 5.855555555555555,
+    "acc": {
+     "dG10_W1d": {
+      "pair_locate": 0.0,
+      "single_detect": 0.014285714285714285
+     },
+     "dG10_W7d": {
+      "pair_locate": 0.0,
+      "single_detect": 0.1
+     },
+     "dG10_W21d": {
+      "pair_locate": 0.0,
+      "single_detect": 0.2
+     },
+     "dG15_W1d": {
+      "pair_locate": 0.0,
+      "single_detect": 0.30952380952380953
+     },
+     "dG15_W7d": {
+      "pair_locate": 0.0,
+      "single_detect": 1.0
+     },
+     "dG15_W21d": {
+      "pair_locate": 0.0,
+      "single_detect": 1.0
+     }
+    }
+   },
+   "R30_M120_Mnew1800": {
+    "allowed_min_per_day": 177.4920634920635,
+    "leak_frac_of_allowed": 0.0,
+    "max_gap_h": 5.861111111111111,
+    "acc": {
+     "dG10_W1d": {
+      "pair_locate": 0.0,
+      "single_detect": 0.009523809523809525
+     },
+     "dG10_W7d": {
+      "pair_locate": 0.0,
+      "single_detect": 0.16666666666666666
+     },
+     "dG10_W21d": {
+      "pair_locate": 0.0,
+      "single_detect": 0.3
+     },
+     "dG15_W1d": {
+      "pair_locate": 0.0,
+      "single_detect": 0.3476190476190476
+     },
+     "dG15_W7d": {
+      "pair_locate": 0.0,
+      "single_detect": 0.9666666666666667
+     },
+     "dG15_W21d": {
+      "pair_locate": 0.0,
+      "single_detect": 1.0
+     }
+    }
+   }
+  },
+  "Fuji": {
+   "R7_M60_Mnew900": {
+    "allowed_min_per_day": 228.03174603174605,
+    "leak_frac_of_allowed": 0.0,
+    "max_gap_h": 6.511111111111111,
+    "acc": {
+     "dG10_W1d": {
+      "pair_locate": 0.0,
+      "single_detect": 0.10952380952380952
+     },
+     "dG10_W7d": {
+      "pair_locate": 0.0,
+      "single_detect": 0.8666666666666667
+     },
+     "dG10_W21d": {
+      "pair_locate": 0.0,
+      "single_detect": 1.0
+     },
+     "dG15_W1d": {
+      "pair_locate": 0.0,
+      "single_detect": 0.46190476190476193
+     },
+     "dG15_W7d": {
+      "pair_locate": 0.0,
+      "single_detect": 1.0
+     },
+     "dG15_W21d": {
+      "pair_locate": 0.0,
+      "single_detect": 1.0
+     }
+    }
+   },
+   "R7_M120_Mnew1800": {
+    "allowed_min_per_day": 161.66666666666666,
+    "leak_frac_of_allowed": 0.0,
+    "max_gap_h": 9.994444444444444,
+    "acc": {
+     "dG10_W1d": {
+      "pair_locate": 0.0,
+      "single_detect": 0.06666666666666667
+     },
+     "dG10_W7d": {
+      "pair_locate": 0.0,
+      "single_detect": 0.3333333333333333
+     },
+     "dG10_W21d": {
+      "pair_locate": 0.0,
+      "single_detect": 1.0
+     },
+     "dG15_W1d": {
+      "pair_locate": 0.0,
+      "single_detect": 0.2523809523809524
+     },
+     "dG15_W7d": {
+      "pair_locate": 0.0,
+      "single_detect": 0.9666666666666667
+     },
+     "dG15_W21d": {
+      "pair_locate": 0.0,
+      "single_detect": 1.0
+     }
+    }
+   },
+   "R14_M120_Mnew1800": {
+    "allowed_min_per_day": 161.5079365079365,
+    "leak_frac_of_allowed": 0.0,
+    "max_gap_h": 10.033333333333333,
+    "acc": {
+     "dG10_W1d": {
+      "pair_locate": 0.0,
+      "single_detect": 0.0380952380952381
+     },
+     "dG10_W7d": {
+      "pair_locate": 0.0,
+      "single_detect": 0.36666666666666664
+     },
+     "dG10_W21d": {
+      "pair_locate": 0.0,
+      "single_detect": 1.0
+     },
+     "dG15_W1d": {
+      "pair_locate": 0.0,
+      "single_detect": 0.28095238095238095
+     },
+     "dG15_W7d": {
+      "pair_locate": 0.0,
+      "single_detect": 0.9333333333333333
+     },
+     "dG15_W21d": {
+      "pair_locate": 0.0,
+      "single_detect": 1.0
+     }
+    }
+   },
+   "R30_M120_Mnew1800": {
+    "allowed_min_per_day": 161.25396825396825,
+    "leak_frac_of_allowed": 0.0,
+    "max_gap_h": 8.766666666666667,
+    "acc": {
+     "dG10_W1d": {
+      "pair_locate": 0.0,
+      "single_detect": 0.05714285714285714
+     },
+     "dG10_W7d": {
+      "pair_locate": 0.0,
+      "single_detect": 0.3
+     },
+     "dG10_W21d": {
+      "pair_locate": 0.0,
+      "single_detect": 1.0
+     },
+     "dG15_W1d": {
+      "pair_locate": 0.0,
+      "single_detect": 0.30952380952380953
+     },
+     "dG15_W7d": {
+      "pair_locate": 0.0,
+      "single_detect": 0.8333333333333334
+     },
+     "dG15_W21d": {
+      "pair_locate": 0.0,
+      "single_detect": 1.0
+     }
+    }
+   }
+  },
+  "North Slope": {
+   "R7_M60_Mnew900": {
+    "allowed_min_per_day": 225.2063492063492,
+    "leak_frac_of_allowed": 0.0,
+    "max_gap_h": 4.383333333333334,
+    "acc": {
+     "dG10_W1d": {
+      "pair_locate": 0.0,
+      "single_detect": 0.24285714285714285
+     },
+     "dG10_W7d": {
+      "pair_locate": 0.0,
+      "single_detect": 0.8333333333333334
+     },
+     "dG10_W21d": {
+      "pair_locate": 0.0,
+      "single_detect": 1.0
+     },
+     "dG15_W1d": {
+      "pair_locate": 0.0,
+      "single_detect": 0.7714285714285715
+     },
+     "dG15_W7d": {
+      "pair_locate": 0.0,
+      "single_detect": 1.0
+     },
+     "dG15_W21d": {
+      "pair_locate": 0.0,
+      "single_detect": 1.0
+     }
+    }
+   },
+   "R7_M120_Mnew1800": {
+    "allowed_min_per_day": 101.26984126984127,
+    "leak_frac_of_allowed": 0.0,
+    "max_gap_h": 10.416666666666666,
+    "acc": {
+     "dG10_W1d": {
+      "pair_locate": 0.0,
+      "single_detect": 0.17142857142857143
+     },
+     "dG10_W7d": {
+      "pair_locate": 0.0,
+      "single_detect": 0.7
+     },
+     "dG10_W21d": {
+      "pair_locate": 0.0,
+      "single_detect": 1.0
+     },
+     "dG15_W1d": {
+      "pair_locate": 0.0,
+      "single_detect": 0.6238095238095238
+     },
+     "dG15_W7d": {
+      "pair_locate": 0.0,
+      "single_detect": 1.0
+     },
+     "dG15_W21d": {
+      "pair_locate": 0.0,
+      "single_detect": 1.0
+     }
+    }
+   },
+   "R14_M120_Mnew1800": {
+    "allowed_min_per_day": 101.19047619047619,
+    "leak_frac_of_allowed": 0.0,
+    "max_gap_h": 10.416666666666666,
+    "acc": {
+     "dG10_W1d": {
+      "pair_locate": 0.0,
+      "single_detect": 0.15714285714285714
+     },
+     "dG10_W7d": {
+      "pair_locate": 0.0,
+      "single_detect": 0.7666666666666667
+     },
+     "dG10_W21d": {
+      "pair_locate": 0.0,
+      "single_detect": 1.0
+     },
+     "dG15_W1d": {
+      "pair_locate": 0.0,
+      "single_detect": 0.5952380952380952
+     },
+     "dG15_W7d": {
+      "pair_locate": 0.0,
+      "single_detect": 1.0
+     },
+     "dG15_W21d": {
+      "pair_locate": 0.0,
+      "single_detect": 1.0
+     }
+    }
+   },
+   "R30_M120_Mnew1800": {
+    "allowed_min_per_day": 100.80952380952381,
+    "leak_frac_of_allowed": 0.0,
+    "max_gap_h": 10.422222222222222,
+    "acc": {
+     "dG10_W1d": {
+      "pair_locate": 0.0,
+      "single_detect": 0.1523809523809524
+     },
+     "dG10_W7d": {
+      "pair_locate": 0.0,
+      "single_detect": 0.7
+     },
+     "dG10_W21d": {
+      "pair_locate": 0.0,
+      "single_detect": 1.0
+     },
+     "dG15_W1d": {
+      "pair_locate": 0.0,
+      "single_detect": 0.6190476190476191
+     },
+     "dG15_W7d": {
+      "pair_locate": 0.0,
+      "single_detect": 1.0
+     },
+     "dG15_W21d": {
+      "pair_locate": 0.0,
+      "single_detect": 1.0
+     }
+    }
+   }
+  }
+ }
+}
